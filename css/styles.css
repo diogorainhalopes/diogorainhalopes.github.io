@@ -3883,8 +3883,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-resume {
     background-color: white;
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
+    padding-top: calc(4 * var(--space));
+    padding-bottom: var(--vspace-3);
 }
 
 .s-resume__section {
@@ -3947,7 +3947,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
     .s-resume {
-        padding-top: var(--vspace-4);
+        padding-top: var(--vspace-3);
     }
     .s-resume__section .column:first-child {
         text-align: center;
@@ -3961,8 +3961,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-portfolio {
     background-color: var(--color-gray-1);
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-5);
+    padding-top: calc(3 * var(--space));
+    padding-bottom: var(--vspace-3);
 }
 
 .s-portfolio h3 {
@@ -4393,7 +4393,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: var(--color-gray-18);
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(3 * var(--space));
     padding-bottom: var(--vspace-3_5);
 }
 
@@ -4462,7 +4462,7 @@ input[type="button"].btn--primary:focus {
 
 @media screen and (max-width: 800px) {
     .s-contact {
-        padding-top: var(--vspace-5);
+        padding-top: var(--vspace-3);
     }
     .s-contact__header {
         text-align: center;
